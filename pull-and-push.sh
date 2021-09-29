@@ -2,7 +2,7 @@
 
 set -ex
 
-MAGMA_TAG=1.6.0
+MAGMA_TAG=1.5.0
 MAGMA_ARTIFACTORY=docker.artifactory.magmacore.org
 
 DOCKER_REGISTRY=magmacore
