@@ -4,7 +4,6 @@ set -ex
 
 MAGMA_TAG=1.6.1
 MAGMA_ARTIFACTORY=docker.artifactory.magmacore.org
-
 DOCKER_REGISTRY=magmacore
 
 for i in controller nginx magmalte gateway_python gateway_go cwag_go gateway_pipelined gateway_sessiond operator
