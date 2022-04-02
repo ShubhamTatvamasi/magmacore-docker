@@ -2,9 +2,9 @@
 
 set -ex
 
-MAGMA_TAG=1.7
+MAGMA_TAG=1.7.0
 NEW_MAGMA_TAG=1.7.0
-MAGMA_ARTIFACTORY=docker-test.artifactory.magmacore.org
+MAGMA_ARTIFACTORY=docker.artifactory.magmacore.org
 DOCKER_REGISTRY=magmacore
 
 for i in controller nginx magmalte gateway_python gateway_go cwag_go gateway_pipelined gateway_sessiond agw_gateway_c agw_gateway_python ghz_gateway_c ghz_gateway_python
