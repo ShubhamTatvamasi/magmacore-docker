@@ -1,6 +1,6 @@
 name: magmacore docker
 
-on: [push]
+on: workflow_dispatch
 
 jobs:
   magmacore-docker:
